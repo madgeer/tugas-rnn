@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dataset besar
+dataset_tweet_sentiment_opini_film.csv
+wikihow.json
+
+# Model weights (regenerasi lewat training, jangan di-commit)
+*.h5
+*.keras
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Folder checkpoint / model
+**/checkpoints/
+**/best_model/*.weights.h5

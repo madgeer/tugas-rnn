@@ -1,0 +1,31 @@
+======================================================================
+HASIL EVALUASI PADA DATA UJI
+======================================================================
+Jumlah data uji : 40
+
+Confusion Matrix:
+                  Prediksi: negative  Prediksi: positive
+Aktual: negative                  15                   5
+Aktual: positive                   6                  14
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    negative     0.7143    0.7500    0.7317        20
+    positive     0.7368    0.7000    0.7179        20
+
+    accuracy                         0.7250        40
+   macro avg     0.7256    0.7250    0.7248        40
+weighted avg     0.7256    0.7250    0.7248        40
+
+Metrik Akhir (weighted average):
+  Accuracy  : 0.7250 (72.50%)
+  Precision : 0.7256
+  Recall    : 0.7250
+  F1-Score  : 0.7248
+
+Metrik tambahan (macro average):
+  Precision : 0.7256
+  Recall    : 0.7250
+  F1-Score  : 0.7248
+======================================================================

@@ -1,0 +1,16 @@
+{
+  "data_path": "D:\\notebook-playground\\summarize\\wikihow.json",
+  "max_samples": 6000,
+  "max_pages": null,
+  "max_article_len": 128,
+  "max_summary_len": 26,
+  "reverse_source": false,
+  "min_article_tokens": 8,
+  "min_summary_tokens": 3,
+  "val_ratio": 0.1,
+  "test_ratio": 0.1,
+  "seed": 42,
+  "min_freq": 1,
+  "max_vocab_size": 20000,
+  "split_by_page": true
+}

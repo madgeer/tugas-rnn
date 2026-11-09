@@ -1,0 +1,37 @@
+{
+  "experiment": {
+    "name": "adam_lr0.001_h256",
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "embedding_dim": 128,
+    "hidden_dim": 256,
+    "batch_size": 64,
+    "epochs": 8,
+    "clipnorm": 5.0,
+    "dropout": 0.2,
+    "seed": 42
+  },
+  "data": {
+    "max_article_len": 128,
+    "max_summary_len": 26,
+    "max_dec_len": 26,
+    "max_vocab_size": 20000,
+    "min_freq": 1,
+    "reverse_source": false
+  },
+  "vocab_size": 11781,
+  "stats": {
+    "pages_read": 512,
+    "pairs_before_split": 6011,
+    "train_pairs": 4793,
+    "val_pairs": 600,
+    "test_pairs": 618,
+    "vocab_size": 11781,
+    "max_article_len": 128,
+    "max_dec_len": 26,
+    "min_freq": 1,
+    "max_vocab_size": 20000,
+    "split_by_page": true,
+    "reverse_source": false
+  }
+}

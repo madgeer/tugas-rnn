@@ -1,0 +1,132 @@
+{
+  "name": "rmsprop_lr0.001_h128",
+  "config": {
+    "name": "rmsprop_lr0.001_h128",
+    "optimizer": "rmsprop",
+    "learning_rate": 0.001,
+    "embedding_dim": 128,
+    "hidden_dim": 128,
+    "batch_size": 64,
+    "epochs": 8,
+    "clipnorm": 5.0,
+    "dropout": 0.2,
+    "seed": 42
+  },
+  "model": {
+    "vocab_size": 11781,
+    "trainable_params": 4601477,
+    "max_article_len": 128,
+    "max_dec_len": 26
+  },
+  "data_stats": {
+    "pages_read": 512,
+    "pairs_before_split": 6011,
+    "train_pairs": 4793,
+    "val_pairs": 600,
+    "test_pairs": 618,
+    "vocab_size": 11781,
+    "max_article_len": 128,
+    "max_dec_len": 26,
+    "min_freq": 1,
+    "max_vocab_size": 20000,
+    "split_by_page": true,
+    "reverse_source": false
+  },
+  "training_time_sec": 100.77485239999805,
+  "avg_epoch_time_sec": 12.514810750000834,
+  "best_val_loss": 6.537221431732178,
+  "final_train_loss": 6.267035484313965,
+  "final_val_loss": 6.537221431732178,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 7.413903713226318,
+      "val_loss": 6.794487953186035,
+      "train_accuracy": 0.13268175721168518,
+      "val_accuracy": 0.14347431063652039,
+      "epoch_time_sec": 14.162109500000952
+    },
+    {
+      "epoch": 2,
+      "train_loss": 6.588559150695801,
+      "val_loss": 6.683745861053467,
+      "train_accuracy": 0.1431087851524353,
+      "val_accuracy": 0.14347431063652039,
+      "epoch_time_sec": 12.216887600006885
+    },
+    {
+      "epoch": 3,
+      "train_loss": 6.461996078491211,
+      "val_loss": 6.626873970031738,
+      "train_accuracy": 0.14549535512924194,
+      "val_accuracy": 0.1562073677778244,
+      "epoch_time_sec": 12.272442299996328
+    },
+    {
+      "epoch": 4,
+      "train_loss": 6.3945794105529785,
+      "val_loss": 6.607308864593506,
+      "train_accuracy": 0.1525414139032364,
+      "val_accuracy": 0.1562073677778244,
+      "epoch_time_sec": 12.36445349999849
+    },
+    {
+      "epoch": 5,
+      "train_loss": 6.354003429412842,
+      "val_loss": 6.592121601104736,
+      "train_accuracy": 0.15427450835704803,
+      "val_accuracy": 0.1562073677778244,
+      "epoch_time_sec": 12.258559800000512
+    },
+    {
+      "epoch": 6,
+      "train_loss": 6.3248982429504395,
+      "val_loss": 6.57285737991333,
+      "train_accuracy": 0.1543029248714447,
+      "val_accuracy": 0.1562073677778244,
+      "epoch_time_sec": 12.338317800000368
+    },
+    {
+      "epoch": 7,
+      "train_loss": 6.2952351570129395,
+      "val_loss": 6.55303430557251,
+      "train_accuracy": 0.15410403907299042,
+      "val_accuracy": 0.1562073677778244,
+      "epoch_time_sec": 12.283031999999366
+    },
+    {
+      "epoch": 8,
+      "train_loss": 6.267035484313965,
+      "val_loss": 6.537221431732178,
+      "train_accuracy": 0.15416087210178375,
+      "val_accuracy": 0.1562073677778244,
+      "epoch_time_sec": 12.222683500003768
+    }
+  ],
+  "rouge": {
+    "rouge1_precision": 0.11596548004314992,
+    "rouge1_recall": 0.05349719566238698,
+    "rouge1_f1": 0.07072975044001517,
+    "rouge2_precision": 0.0,
+    "rouge2_recall": 0.0,
+    "rouge2_f1": 0.0,
+    "rougeL_precision": 0.11380798274002157,
+    "rougeL_recall": 0.052675875666309706,
+    "rougeL_f1": 0.06955059877542662,
+    "n_samples": 618
+  },
+  "predictions": [
+    "gunakan dengan yang",
+    "gunakan dengan yang",
+    "gunakan dengan yang",
+    "gunakan dengan yang",
+    "gunakan dengan yang"
+  ],
+  "references": [
+    "hitunglah laju metabolisme basal lmb anda",
+    "hitunglah lmb anda dengan menghitung kalori yang dibakar dalam aktivitas fisik",
+    "gunakan kalkulator lmb daring",
+    "belilah pemantau detak jantung yang dapat mengukur detak jantung secara berkelanjutan",
+    "mulailah menulis jurnal makanan"
+  ]
+}

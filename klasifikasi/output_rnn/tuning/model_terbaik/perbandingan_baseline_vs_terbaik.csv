@@ -1,0 +1,3 @@
+model,test_accuracy,test_precision,test_recall,test_f1
+"Baseline SimpleRNN (Adam, lr=5e-4)",0.775,0.7757,0.775,0.7749
+Tuning terbaik (GRU u32 e64 d0.5 rd0.2 b16 lr0.0005 adam l2=0.0001),0.725,0.7255639097744361,0.725,0.7248280175109443

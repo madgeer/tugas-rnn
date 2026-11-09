@@ -1,0 +1,6 @@
+{
+  "best_experiment": "rmsprop_lr0.001_h128",
+  "selection": "ROUGE-L F1 tertinggi; tie-break validation loss terendah",
+  "rougeL_f1": 0.06955059877542662,
+  "best_val_loss": 6.537221431732178
+}
